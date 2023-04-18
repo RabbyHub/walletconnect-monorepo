@@ -11,6 +11,7 @@ const DEFAULT_BRIDGE = "https://bridge.walletconnect.org";
 let connector = null;
 
 function onInit() {
+  console.log("onInit", "walletConnect");
   // Create a connector
   connector = new WalletConnect({
     bridge: DEFAULT_BRIDGE, // Required
@@ -86,4 +87,13 @@ function signPersonalMessage() {
       // Error returned when rejected
       console.error(error); // eslint-disable-line
     });
+}
+
+function onClose() {
+  if (!connector) {
+    throw new Error(`connector hasn't been created yet`);
+  }
+
+  // close connector
+  connector.killSession();
 }

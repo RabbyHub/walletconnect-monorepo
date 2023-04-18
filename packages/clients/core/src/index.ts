@@ -974,6 +974,12 @@ class Connector implements IConnector {
       return;
     }
 
+    // 超时断开连接
+    if (socketMessage.phase === "sessionExpired") {
+      this._handleSessionDisconnect("sessionExpired");
+      return;
+    }
+
     let encryptionPayload: IEncryptionPayload;
     try {
       encryptionPayload = JSON.parse(socketMessage.payload);
