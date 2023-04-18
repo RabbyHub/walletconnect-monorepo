@@ -2,6 +2,12 @@
 
 Open protocol for connecting Wallets to Dapps - https://walletconnect.org
 
+## 备注
+
+- core 初始化 transport
+- transport 内通过 \_socketSend、\_socketReceive 和服务端通信
+- core 内通过 \_handleIncomingMessages 处理服务端传来的消息
+
 ## Packages
 
 | SDK           | Current Version                                                                                      | Description |
