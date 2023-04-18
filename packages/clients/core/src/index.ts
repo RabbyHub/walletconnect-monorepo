@@ -969,14 +969,23 @@ class Connector implements IConnector {
     }
 
     // 服务端主动通知断开连接
-    if (socketMessage.phase === "walletDisconnect") {
-      this._handleSessionDisconnect("walletDisconnect");
+    if (socketMessage.phase === "sessionSuspended") {
+      this._handleSessionDisconnect("sessionSuspended");
       return;
     }
 
     // 超时断开连接
     if (socketMessage.phase === "sessionExpired") {
       this._handleSessionDisconnect("sessionExpired");
+      return;
+    }
+
+    // 钱包已扫二维码
+    if (socketMessage.phase === "sessionReceived") {
+      this._eventManager.trigger({
+        event: "session_received",
+        params: [],
+      });
       return;
     }
 

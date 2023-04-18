@@ -34,6 +34,11 @@ function onSubscribe() {
   if (!connector) {
     throw new Error(`connector hasn't been created yet`);
   }
+
+  connector.on("session_received", () => {
+    console.log("钱包已扫二维码");
+  });
+
   // Subscribe to connection events
   connector.on("connect", (error, payload) => {
     if (error) {
