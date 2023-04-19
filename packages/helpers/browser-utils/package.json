@@ -1,6 +1,6 @@
 {
   "name": "@debank/wc-browser-utils",
-  "version": "1.8.0",
+  "version": "1.8.1",
   "description": "Browser Utilities for WalletConnect",
   "scripts": {
     "clean": "rm -rf dist",
@@ -62,8 +62,8 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
+    "@debank/wc-types": "^1.8.1",
     "@walletconnect/safe-json": "1.0.0",
-    "@debank/wc-types": "^1.8.0",
     "@walletconnect/window-getters": "1.0.0",
     "@walletconnect/window-metadata": "1.0.0",
     "detect-browser": "5.2.0"
