@@ -479,6 +479,7 @@ class Connector implements IConnector {
 
     this._sendSessionRequest(request, "Session update rejected", {
       topic: this.handshakeTopic,
+      phase: "sessionRequest",
     });
 
     this._eventManager.trigger({
@@ -795,8 +796,8 @@ class Connector implements IConnector {
       typeof options?.forcePushNotification !== "undefined"
         ? !options.forcePushNotification
         : isSilentPayload(callRequest);
-
-    this._transport.send(payload, topic, silent);
+    const phase = options?.phase;
+    this._transport.send(payload, topic, silent, phase);
   }
 
   protected async _sendResponse(response: IJsonRpcResponseSuccess | IJsonRpcResponseError) {
@@ -968,13 +969,25 @@ class Connector implements IConnector {
       return;
     }
 
-    // 服务端主动通知断开连接
+    // 钱包断开
     if (socketMessage.phase === "sessionSuspended") {
-      this._handleSessionDisconnect("sessionSuspended");
+      this._eventManager.trigger({
+        event: "session_suspended",
+        params: [],
+      });
       return;
     }
 
-    // 超时断开连接
+    // 钱包恢复
+    if (socketMessage.phase === "sessionResumed") {
+      this._eventManager.trigger({
+        event: "session_resumed",
+        params: [],
+      });
+      return;
+    }
+
+    // 钱包未扫二维码
     if (socketMessage.phase === "sessionExpired") {
       this._handleSessionDisconnect("sessionExpired");
       return;

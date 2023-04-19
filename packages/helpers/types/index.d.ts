@@ -57,7 +57,7 @@ export interface ICryptoLib {
 export interface ITransportLib {
   open: () => void;
   close: () => void;
-  send: (message: string, topic?: string, silent?: boolean) => void;
+  send: (message: string, topic?: string, silent?: boolean, phase?: string) => void;
   subscribe: (topic: string) => void;
   on: (event: string, callback: (payload: any) => void) => void;
 }
@@ -334,6 +334,7 @@ export interface IRequestOptions {
 
 export interface IInternalRequestOptions extends IRequestOptions {
   topic: string;
+  phase?: string;
 }
 
 export interface ICreateSessionOptions {

@@ -107,7 +107,7 @@ class SocketTransport implements ITransportLib {
     }
   }
 
-  public send(message: string, topic?: string, silent?: boolean): void {
+  public send(message: string, topic?: string, silent?: boolean, phase?: string): void {
     if (!topic || typeof topic !== "string") {
       throw new Error("Missing or invalid topic field");
     }
@@ -117,6 +117,7 @@ class SocketTransport implements ITransportLib {
       type: "pub",
       payload: message,
       silent: !!silent,
+      phase,
     });
   }
 
@@ -181,7 +182,6 @@ class SocketTransport implements ITransportLib {
 
   private _socketSend(socketMessage: ISocketMessage) {
     socketMessage.role = "dapp";
-    socketMessage.phase = "sessionRequest";
 
     const message: string = JSON.stringify(socketMessage);
 
