@@ -2,6 +2,9 @@
   "name": "@debank/wc-qrcode-modal",
   "version": "1.8.1",
   "description": "QR Code Modal for WalletConnect",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build:svg": "node ./scripts/build-svg.js",

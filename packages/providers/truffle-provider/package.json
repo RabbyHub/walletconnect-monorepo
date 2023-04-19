@@ -2,6 +2,9 @@
   "name": "@debank/wc-truffle-provider",
   "version": "1.8.1",
   "description": "WalletConnect Provider for Truffle",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build:pre": "run-s clean",

@@ -2,6 +2,9 @@
   "name": "@debank/wc-socket-transport",
   "version": "1.8.1",
   "description": "Socket Transport for WalletConnect",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build:pre": "run-s clean",

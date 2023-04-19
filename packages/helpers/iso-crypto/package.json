@@ -2,6 +2,9 @@
   "name": "@debank/wc-iso-crypto",
   "version": "1.8.1",
   "description": "Isomorphic Crypto for WalletConnect",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build:pre": "run-s clean",

@@ -2,6 +2,9 @@
   "name": "@debank/wc-ethereum-provider",
   "version": "1.8.1",
   "description": "Ethereum Provider for WalletConnect",
+  "publishConfig": {
+    "access": "restricted"
+  },
   "scripts": {
     "clean": "rm -rf dist",
     "build:pre": "run-s clean",
