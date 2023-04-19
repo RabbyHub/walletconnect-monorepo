@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/ethereum-provider",
+  "name": "@debank/wc-ethereum-provider",
   "version": "1.8.0",
   "description": "Ethereum Provider for WalletConnect",
   "scripts": {
@@ -63,12 +63,12 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@walletconnect/client": "^1.8.0",
+    "@debank/wc-client": "^1.8.0",
     "@walletconnect/jsonrpc-http-connection": "^1.0.2",
     "@walletconnect/jsonrpc-provider": "^1.0.5",
-    "@walletconnect/signer-connection": "^1.8.0",
-    "@walletconnect/types": "^1.8.0",
-    "@walletconnect/utils": "^1.8.0",
+    "@debank/wc-signer-connection": "^1.8.0",
+    "@debank/wc-types": "^1.8.0",
+    "@debank/wc-utils": "^1.8.0",
     "eip1193-provider": "1.0.1",
     "eventemitter3": "4.0.7"
   },

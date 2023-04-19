@@ -24,7 +24,7 @@ import {
   IPushServerOptions,
   IWalletConnectSession,
   IQRCodeModalOptions,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 import {
   parsePersonalSign,
   parseTransactionData,
@@ -44,8 +44,8 @@ import {
   mobileLinkChoiceKey,
   isMobile,
   removeLocal,
-} from "@walletconnect/utils";
-import SocketTransport from "@walletconnect/socket-transport";
+} from "@debank/wc-utils";
+import SocketTransport from "@debank/wc-socket-transport";
 import {
   ERROR_SESSION_CONNECTED,
   ERROR_SESSION_DISCONNECTED,

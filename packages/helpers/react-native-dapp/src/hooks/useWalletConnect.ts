@@ -1,4 +1,4 @@
-import WalletConnect from "@walletconnect/client";
+import WalletConnect from "@debank/wc-client";
 import * as React from "react";
 
 import useWalletConnectContext from "./useWalletConnectContext";
@@ -8,7 +8,7 @@ export type useWalletConnectResult = {
   readonly connected: boolean;
 };
 
-export default function useWalletConnect(): WalletConnect  {
+export default function useWalletConnect(): WalletConnect {
   const { connector } = useWalletConnectContext();
   return React.useMemo((): WalletConnect => {
     if (connector) {

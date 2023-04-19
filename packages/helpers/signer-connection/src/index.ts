@@ -1,6 +1,6 @@
 import EventEmitter from "eventemitter3";
-import WalletConnect from "@walletconnect/client";
-import QRCodeModal from "@walletconnect/qrcode-modal";
+import WalletConnect from "@debank/wc-client";
+import QRCodeModal from "@debank/wc-qrcode-modal";
 import { IJsonRpcConnection, JsonRpcError, JsonRpcResponse } from "@walletconnect/jsonrpc-types";
 import { formatJsonRpcError } from "@walletconnect/jsonrpc-utils";
 import {
@@ -9,7 +9,7 @@ import {
   IJsonRpcResponseSuccess,
   IQRCodeModalOptions,
   IWCEthRpcConnectionOptions,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 
 export class SignerConnection extends IJsonRpcConnection {
   public events: any = new EventEmitter();

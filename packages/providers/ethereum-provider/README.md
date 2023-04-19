@@ -8,7 +8,7 @@ For more details, read the [documentation](https://docs.walletconnect.org)
 
 ```typescript
 import Web3 from "web3";
-import WalletConnectProvider from "@walletconnect/ethereum-provider";
+import WalletConnectProvider from "@debank/wc-ethereum-provider";
 
 //  Create WalletConnect Provider
 const provider = new WalletConnectProvider({
@@ -157,17 +157,8 @@ Providing empty whitelist disables linking.
 const provider = new WalletConnectProvider({
   infuraId: "27e484dcd9e3efcfd25a83a78777cdf1",
   qrcodeModalOptions: {
-    mobileLinks: [
-      "rainbow",
-      "metamask",
-      "argent",
-      "trust",
-      "imtoken",
-      "pillar",
-    ],
-    desktopLinks: [
-      "encrypted ink",
-    ]
-  }
+    mobileLinks: ["rainbow", "metamask", "argent", "trust", "imtoken", "pillar"],
+    desktopLinks: ["encrypted ink"],
+  },
 });
 ```

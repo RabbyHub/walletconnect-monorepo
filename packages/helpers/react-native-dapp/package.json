@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/react-native-dapp",
+  "name": "@debank/wc-react-native-dapp",
   "version": "1.8.0",
   "description": "WalletConnect for React Native dapps",
   "scripts": {
@@ -38,9 +38,9 @@
     "url": "https://github.com/walletconnect/walletconnect-monorepo/issues"
   },
   "dependencies": {
-    "@walletconnect/client": "^1.8.0",
-    "@walletconnect/types": "^1.8.0",
-    "@walletconnect/utils": "^1.8.0",
+    "@debank/wc-client": "^1.8.0",
+    "@debank/wc-types": "^1.8.0",
+    "@debank/wc-utils": "^1.8.0",
     "keyvaluestorage": "0.7.1",
     "react-native-qrcode-svg": "6.0.6",
     "react-native-svg": "9.6.4",

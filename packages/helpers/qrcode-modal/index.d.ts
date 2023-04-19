@@ -1,1 +1,1 @@
-declare module "@walletconnect/qrcode-modal"
+declare module "@debank/wc-qrcode-modal";

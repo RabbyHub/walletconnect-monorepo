@@ -1,1 +1,1 @@
-declare module "@walletconnect/client"
+declare module "@debank/wc-client";

@@ -6,7 +6,7 @@ updateTitle();
 const WalletConnect = window.WalletConnect.default;
 const WalletConnectQRCodeModal = window.WalletConnectQRCodeModal.default;
 
-const DEFAULT_BRIDGE = "https://bridge.walletconnect.org";
+const DEFAULT_BRIDGE = "https://derelay.rabby.io";
 
 let connector = null;
 

@@ -1,7 +1,7 @@
-import WalletConnect from "@walletconnect/client";
-import QRCodeModal from "@walletconnect/qrcode-modal";
-import Web3Provider from "@walletconnect/web3-provider";
-import { isNode } from "@walletconnect/utils";
+import WalletConnect from "@debank/wc-client";
+import QRCodeModal from "@debank/wc-qrcode-modal";
+import Web3Provider from "@debank/wc-web3-provider";
+import { isNode } from "@debank/wc-utils";
 import {
   IWalletConnectSDKOptions,
   IConnector,
@@ -10,7 +10,7 @@ import {
   IWCRpcConnectionOptions,
   IWalletConnectStarkwareProviderOptions,
   IWalletConnectOptions,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 
 class WalletConnectSDK {
   public connector: IConnector | undefined;

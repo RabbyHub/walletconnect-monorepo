@@ -4,14 +4,14 @@ import {
   isJsonRpcResponseError,
   isInternalEvent,
   isReservedEvent,
-} from "@walletconnect/utils";
+} from "@debank/wc-utils";
 import {
   IInternalEvent,
   IJsonRpcResponseSuccess,
   IJsonRpcResponseError,
   IJsonRpcRequest,
   IEventEmitter,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 
 // -- EventManager --------------------------------------------------------- //
 

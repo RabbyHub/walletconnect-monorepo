@@ -1,4 +1,4 @@
-import { IMobileRegistryEntry, IMobileRegistry, IMobileLinkInfo } from "@walletconnect/types";
+import { IMobileRegistryEntry, IMobileRegistry, IMobileLinkInfo } from "@debank/wc-types";
 
 import { setLocal } from "./local";
 

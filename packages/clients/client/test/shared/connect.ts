@@ -1,6 +1,6 @@
 import "mocha";
 import { expect } from "chai";
-import { ICreateSessionOptions } from "@walletconnect/types";
+import { ICreateSessionOptions } from "@debank/wc-types";
 
 import IsomorphicClient from "../../src";
 

@@ -5,7 +5,7 @@ import {
   IJsonRpcResponseSuccess,
   IJsonRpcResponseError,
   IInternalEvent,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 
 import { signingMethods, reservedEvents } from "./constants";
 

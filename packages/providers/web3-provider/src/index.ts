@@ -1,7 +1,7 @@
-import WalletConnect from "@walletconnect/client";
-import QRCodeModal from "@walletconnect/qrcode-modal";
-import HttpConnection from "@walletconnect/http-connection";
-import { payloadId, signingMethods, parsePersonalSign, getRpcUrl } from "@walletconnect/utils";
+import WalletConnect from "@debank/wc-client";
+import QRCodeModal from "@debank/wc-qrcode-modal";
+import HttpConnection from "@debank/wc-http-connection";
+import { payloadId, signingMethods, parsePersonalSign, getRpcUrl } from "@debank/wc-utils";
 import {
   IRPCMap,
   IConnector,
@@ -9,7 +9,7 @@ import {
   IJsonRpcResponseSuccess,
   IWalletConnectProviderOptions,
   IQRCodeModalOptions,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 
 const ProviderEngine = require("web3-provider-engine");
 const CacheSubprovider = require("web3-provider-engine/subproviders/cache");

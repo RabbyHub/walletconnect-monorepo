@@ -11,15 +11,16 @@ const defaultValue: Partial<WalletConnectContextValue> = Object.freeze({
     name: "WalletConnect",
   },
   storageOptions: {
-    rootStorageKey: "@walletconnect/qrcode-modal-react-native",
+    rootStorageKey: "@debank/wc-qrcode-modal-react-native",
   },
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  connectToWalletService: async (walletService: WalletService, uri?: string) => Promise.reject(new Error(
-    "[WalletConnect]: It looks like you have forgotten to wrap your application with a <WalletConnectProvider />.",
-  )),
+  connectToWalletService: async (walletService: WalletService, uri?: string) =>
+    Promise.reject(
+      new Error(
+        "[WalletConnect]: It looks like you have forgotten to wrap your application with a <WalletConnectProvider />.",
+      ),
+    ),
   walletServices: [],
 });
 
-export default React.createContext<Partial<WalletConnectContextValue>>(
-  defaultValue,
-);
+export default React.createContext<Partial<WalletConnectContextValue>>(defaultValue);

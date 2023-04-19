@@ -4,7 +4,7 @@ import {
   IQRCodeModalOptions,
   IAppRegistry,
   IMobileLinkInfo,
-} from "@walletconnect/types";
+} from "@debank/wc-types";
 import {
   isMobile,
   isAndroid,
@@ -13,7 +13,7 @@ import {
   getMobileLinkRegistry,
   getWalletRegistryUrl,
   formatMobileRegistry,
-} from "@walletconnect/browser-utils";
+} from "@debank/wc-browser-utils";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Header from "./Header";
@@ -72,7 +72,7 @@ function Modal(props: ModalProps) {
             props.qrcodeModalOptions && props.qrcodeModalOptions.registryUrl
               ? props.qrcodeModalOptions.registryUrl
               : getWalletRegistryUrl();
-          const registryResponse = await fetch(url)
+          const registryResponse = await fetch(url);
           const registry = (await registryResponse.json()).listings as IAppRegistry;
           const platform = mobile ? "mobile" : "desktop";
           const _links = getMobileLinkRegistry(formatMobileRegistry(registry, platform), whitelist);

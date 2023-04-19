@@ -5,39 +5,40 @@ Deploy your contracts using WalletConnect
 ## Install
 
 ```bash
-yarn add @walletconnect/truffle-provider
+yarn add @debank/wc-truffle-provider
 
 # OR
 
-npm install --save @walletconnect/truffle-provider
+npm install --save @debank/wc-truffle-provider
 ```
 
 ## Example usage
 
 ```javascript
-const WalletConnectProvider = require('@walletconnect/truffle-provider').default
+const WalletConnectProvider = require("@debank/wc-truffle-provider").default;
 
 let provider = new WalletConnectProvider(
-  `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`
-)
+  `https://ropsten.infura.io/v3/${process.env.INFURA_API_KEY}`,
+);
 
 module.exports = {
   networks: {
     development: {
-      host: 'localhost',
+      host: "localhost",
       port: 8545,
-      network_id: '*' // Match any network id
+      network_id: "*", // Match any network id
     },
     ropsten: {
       provider: () => provider,
-      network_id: '3',
-      networkCheckTimeout: 10000
-    }
-  }
-}
+      network_id: "3",
+      networkCheckTimeout: 10000,
+    },
+  },
+};
 ```
 
 On command line:
+
 ```bash
 truffle migrate --network ropsten
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "walletconnect",
+  "name": "@debank/wc",
   "version": "1.8.0",
   "description": "WalletConnect SDK",
   "scripts": {
@@ -60,11 +60,11 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@walletconnect/client": "^1.8.0",
-    "@walletconnect/qrcode-modal": "^1.8.0",
-    "@walletconnect/types": "^1.8.0",
-    "@walletconnect/utils": "^1.8.0",
-    "@walletconnect/web3-provider": "^1.8.0"
+    "@debank/wc-client": "^1.8.0",
+    "@debank/wc-qrcode-modal": "^1.8.0",
+    "@debank/wc-types": "^1.8.0",
+    "@debank/wc-utils": "^1.8.0",
+    "@debank/wc-web3-provider": "^1.8.0"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }

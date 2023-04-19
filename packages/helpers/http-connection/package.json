@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/http-connection",
+  "name": "@debank/wc-http-connection",
   "version": "1.8.0",
   "description": "Http Connection for WalletConnect Providers",
   "scripts": {
@@ -61,8 +61,8 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@walletconnect/types": "^1.8.0",
-    "@walletconnect/utils": "^1.8.0",
+    "@debank/wc-types": "^1.8.0",
+    "@debank/wc-utils": "^1.8.0",
     "eventemitter3": "4.0.7",
     "xhr2-cookies": "1.1.0"
   },

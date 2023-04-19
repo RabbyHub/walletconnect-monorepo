@@ -1,6 +1,6 @@
 import { ethers, utils } from "ethers";
-import WalletConnect from "@walletconnect/client";
-import { IConnector } from "@walletconnect/types";
+import WalletConnect from "@debank/wc-client";
+import { IConnector } from "@debank/wc-types";
 
 export interface WalletClientOpts {
   privateKey: string;

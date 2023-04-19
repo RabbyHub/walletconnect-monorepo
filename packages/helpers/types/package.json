@@ -1,5 +1,5 @@
 {
-  "name": "@walletconnect/types",
+  "name": "@debank/wc-types",
   "version": "1.8.0",
   "description": "Typescript Types for WalletConnect",
   "scripts": {},

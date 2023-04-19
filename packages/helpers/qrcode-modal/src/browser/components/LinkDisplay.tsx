@@ -1,6 +1,6 @@
 import * as React from "react";
-import { IMobileRegistryEntry, IQRCodeModalOptions } from "@walletconnect/types";
-import { isAndroid, formatIOSMobile, saveMobileLinkInfo } from "@walletconnect/browser-utils";
+import { IMobileRegistryEntry, IQRCodeModalOptions } from "@debank/wc-types";
+import { isAndroid, formatIOSMobile, saveMobileLinkInfo } from "@debank/wc-browser-utils";
 
 import { DEFAULT_BUTTON_COLOR, WALLETCONNECT_CTA_TEXT_ID } from "../constants";
 
