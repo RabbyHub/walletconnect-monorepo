@@ -994,7 +994,7 @@ class Connector implements IConnector {
     }
 
     // 钱包已扫二维码
-    if (socketMessage.phase === "sessionReceived") {
+    if (socketMessage.type === "ack") {
       this._eventManager.trigger({
         event: "session_received",
         params: [],
