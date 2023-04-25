@@ -1,6 +1,6 @@
 {
   "name": "@debank/wc-core",
-  "version": "1.8.2",
+  "version": "1.8.3",
   "description": "Core Library for WalletConnect",
   "publishConfig": {
     "access": "restricted"
@@ -63,9 +63,9 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-socket-transport": "^1.8.2",
-    "@debank/wc-types": "^1.8.2",
-    "@debank/wc-utils": "^1.8.2"
+    "@debank/wc-socket-transport": "^1.8.3",
+    "@debank/wc-types": "^1.8.3",
+    "@debank/wc-utils": "^1.8.3"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }
