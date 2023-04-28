@@ -1,6 +1,6 @@
 {
   "name": "@debank/wc-qrcode-modal",
-  "version": "1.8.3",
+  "version": "1.8.4",
   "description": "QR Code Modal for WalletConnect",
   "publishConfig": {
     "access": "restricted"
@@ -71,8 +71,8 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-browser-utils": "^1.8.3",
-    "@debank/wc-types": "^1.8.3",
+    "@debank/wc-browser-utils": "^1.8.4",
+    "@debank/wc-types": "^1.8.4",
     "@walletconnect/mobile-registry": "^1.4.0",
     "copy-to-clipboard": "^3.3.1",
     "preact": "10.4.1",

@@ -1,6 +1,6 @@
 {
   "name": "@debank/wc-signer-connection",
-  "version": "1.8.3",
+  "version": "1.8.4",
   "description": "Signer Connection for WalletConnect Providers",
   "publishConfig": {
     "access": "restricted"
@@ -64,9 +64,9 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-client": "^1.8.3",
-    "@debank/wc-qrcode-modal": "^1.8.3",
-    "@debank/wc-types": "^1.8.3",
+    "@debank/wc-client": "^1.8.4",
+    "@debank/wc-qrcode-modal": "^1.8.4",
+    "@debank/wc-types": "^1.8.4",
     "@walletconnect/jsonrpc-types": "^1.0.1",
     "@walletconnect/jsonrpc-utils": "^1.0.3",
     "eventemitter3": "4.0.7"
