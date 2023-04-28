@@ -965,6 +965,15 @@ class Connector implements IConnector {
   private async _handleIncomingMessages(socketMessage: ISocketMessage) {
     const activeTopics = [this.clientId, this.handshakeTopic];
 
+    // topic 不一定一致，是服务端返回的，因此跳过校验
+    if (socketMessage.type === "ack") {
+      this._eventManager.trigger({
+        event: "ack",
+        params: [],
+      });
+      return;
+    }
+
     if (!activeTopics.includes(socketMessage.topic)) {
       return;
     }
@@ -990,15 +999,6 @@ class Connector implements IConnector {
     // 钱包未扫二维码
     if (socketMessage.phase === "sessionExpired") {
       this._handleSessionDisconnect("sessionExpired");
-      return;
-    }
-
-    // 钱包已扫二维码
-    if (socketMessage.type === "ack") {
-      this._eventManager.trigger({
-        event: "session_received",
-        params: [],
-      });
       return;
     }
 
