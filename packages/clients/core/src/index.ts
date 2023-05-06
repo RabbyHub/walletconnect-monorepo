@@ -1133,6 +1133,10 @@ class Connector implements IConnector {
       this._handleIncomingMessages(socketMessage),
     );
 
+    this._transport.on("pong", payload =>
+      this._eventManager.trigger({ event: "transport_pong", params: [payload] }),
+    );
+
     this._transport.on("open", () =>
       this._eventManager.trigger({ event: "transport_open", params: [] }),
     );

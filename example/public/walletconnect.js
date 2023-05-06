@@ -72,6 +72,14 @@ function onSubscribe() {
 
     onDisconnect();
   });
+
+  connector.on("transport_pong", (error, payload) => {
+    if (error) {
+      throw error;
+    }
+
+    console.log("pong", payload);
+  });
 }
 
 function signPersonalMessage() {

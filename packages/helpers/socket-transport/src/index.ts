@@ -169,6 +169,19 @@ class SocketTransport implements ITransportLib {
     this._nextSocket = null;
     this._queueSubscriptions();
     this._pushQueue();
+
+    // ping
+    setInterval(() => {
+      if (this._socket && this._socket.readyState === 1) {
+        this._socketSend({
+          type: "ping",
+          payload: "",
+          topic: "",
+          silent: false,
+        });
+        this.pingTime = Date.now();
+      }
+    }, 10 * 1000);
   }
 
   private _socketClose() {
@@ -193,12 +206,26 @@ class SocketTransport implements ITransportLib {
     }
   }
 
+  private pingTime: number | undefined;
+
   private async _socketReceive(event: MessageEvent) {
     let socketMessage: ISocketMessage;
 
     try {
       socketMessage = JSON.parse(event.data);
     } catch (error) {
+      return;
+    }
+
+    if (socketMessage.type === "pong") {
+      const events = this._events.filter(event => event.event === "pong");
+      if (events && events.length) {
+        events.forEach(event =>
+          event.callback({
+            delay: Date.now() - (this.pingTime ?? 0),
+          }),
+        );
+      }
       return;
     }
 
