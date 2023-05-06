@@ -1,6 +1,6 @@
 {
   "name": "@debank/wc-web3-subprovider",
-  "version": "1.8.4",
+  "version": "1.8.5",
   "description": "Web3 Subprovider for WalletConnect",
   "publishConfig": {
     "access": "restricted"
@@ -63,9 +63,9 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-client": "^1.8.4",
-    "@debank/wc-qrcode-modal": "^1.8.4",
-    "@debank/wc-types": "^1.8.4",
+    "@debank/wc-client": "^1.8.5",
+    "@debank/wc-qrcode-modal": "^1.8.5",
+    "@debank/wc-types": "^1.8.5",
     "web3-provider-engine": "16.0.1"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
