@@ -934,6 +934,8 @@ class Connector implements IConnector {
               },
             ],
           });
+
+          this._transport.send("", this.peerId, true, "sessionStart");
         } else {
           if (sessionParams.chainId) {
             this.chainId = sessionParams.chainId;
