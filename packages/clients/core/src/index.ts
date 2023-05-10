@@ -965,7 +965,7 @@ class Connector implements IConnector {
   }
 
   private async _handleIncomingMessages(socketMessage: ISocketMessage) {
-    const activeTopics = [this.clientId, this.handshakeTopic];
+    const activeTopics = [this.clientId, this.handshakeTopic, this.peerId];
 
     // topic 不一定一致，是服务端返回的，因此跳过校验
     if (socketMessage.type === "ack") {
