@@ -1,6 +1,6 @@
 {
   "name": "@debank/wc",
-  "version": "1.8.6",
+  "version": "1.8.7",
   "description": "WalletConnect SDK",
   "publishConfig": {
     "access": "restricted"
@@ -63,11 +63,11 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-client": "^1.8.6",
-    "@debank/wc-qrcode-modal": "^1.8.6",
-    "@debank/wc-types": "^1.8.6",
-    "@debank/wc-utils": "^1.8.6",
-    "@debank/wc-web3-provider": "^1.8.6"
+    "@debank/wc-client": "^1.8.7",
+    "@debank/wc-qrcode-modal": "^1.8.7",
+    "@debank/wc-types": "^1.8.7",
+    "@debank/wc-utils": "^1.8.7",
+    "@debank/wc-web3-provider": "^1.8.7"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }
