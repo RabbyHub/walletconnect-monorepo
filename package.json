@@ -19,7 +19,7 @@
   "license": "Apache-2.0",
   "scripts": {
     "ls": "lerna ls",
-    "bootstrap": "npm install && run-s bootstrap:monorepo bootstrap:example",
+    "bootstrap": "npm install && run-s bootstrap:example",
     "bootstrap:monorepo": "lerna bootstrap --hoist",
     "bootstrap:example": "cd example && npm install",
     "build": "lerna run build",
@@ -69,5 +69,8 @@
     "npm-run-all": "4.1.5",
     "prettier": "1.19.1",
     "ts-node": "10.8.1"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }
