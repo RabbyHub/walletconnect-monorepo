@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/wc-iso-crypto",
-  "version": "1.8.8",
+  "version": "1.8.9",
   "description": "Isomorphic Crypto for WalletConnect",
   "publishConfig": {
     "access": "public"
@@ -64,8 +64,8 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@rabby-wallet/wc-types": "^1.8.8",
-    "@rabby-wallet/wc-utils": "^1.8.8",
+    "@rabby-wallet/wc-types": "^1.8.9",
+    "@rabby-wallet/wc-utils": "^1.8.9",
     "@walletconnect/crypto": "^1.0.2",
     "@walletconnect/encoding": "^1.0.1"
   },

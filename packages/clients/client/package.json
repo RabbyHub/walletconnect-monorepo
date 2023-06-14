@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/wc-client",
-  "version": "1.8.8",
+  "version": "1.8.9",
   "description": "Client for WalletConnect",
   "publishConfig": {
     "access": "public"
@@ -63,10 +63,10 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@rabby-wallet/wc-core": "^1.8.8",
-    "@rabby-wallet/wc-iso-crypto": "^1.8.8",
-    "@rabby-wallet/wc-types": "^1.8.8",
-    "@rabby-wallet/wc-utils": "^1.8.8"
+    "@rabby-wallet/wc-core": "^1.8.9",
+    "@rabby-wallet/wc-iso-crypto": "^1.8.9",
+    "@rabby-wallet/wc-types": "^1.8.9",
+    "@rabby-wallet/wc-utils": "^1.8.9"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }
