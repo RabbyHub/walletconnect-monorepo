@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/wc-types",
-  "version": "1.8.9",
+  "version": "1.8.10",
   "description": "Typescript Types for WalletConnect",
   "publishConfig": {
     "access": "public"
