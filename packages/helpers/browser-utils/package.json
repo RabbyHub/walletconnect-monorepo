@@ -2,7 +2,6 @@
   "name": "@rabby-wallet/wc-browser-utils",
   "version": "1.8.8",
   "description": "Browser Utilities for WalletConnect",
-  "private": true,
   "publishConfig": {
     "access": "public"
   },
