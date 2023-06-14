@@ -1,6 +1,6 @@
-import WalletConnect from "@debank/wc-client";
-import QRCodeModal from "@debank/wc-qrcode-modal";
-import { IWCEthRpcConnectionOptions, IConnector } from "@debank/wc-types";
+import WalletConnect from "@rabby-wallet/wc-client";
+import QRCodeModal from "@rabby-wallet/wc-qrcode-modal";
+import { IWCEthRpcConnectionOptions, IConnector } from "@rabby-wallet/wc-types";
 
 const HookedWalletSubprovider = require("web3-provider-engine/subproviders/hooked-wallet");
 

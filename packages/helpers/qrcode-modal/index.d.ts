@@ -1,1 +1,1 @@
-declare module "@debank/wc-qrcode-modal";
+declare module "@rabby-wallet/wc-qrcode-modal";

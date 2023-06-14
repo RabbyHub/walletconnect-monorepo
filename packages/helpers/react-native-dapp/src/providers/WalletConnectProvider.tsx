@@ -1,5 +1,5 @@
-import WalletConnect from "@debank/wc-client";
-import { ICreateSessionOptions, IWalletConnectSession } from "@debank/wc-types";
+import WalletConnect from "@rabby-wallet/wc-client";
+import { ICreateSessionOptions, IWalletConnectSession } from "@rabby-wallet/wc-types";
 import deepmerge from "deepmerge";
 import { KeyValueStorage, ReactNativeStorageOptions } from "keyvaluestorage";
 import * as React from "react";

@@ -1,9 +1,9 @@
 import EventEmitter from "eventemitter3";
 import { JsonRpcProvider } from "@walletconnect/jsonrpc-provider";
 import { HttpConnection } from "@walletconnect/jsonrpc-http-connection";
-import { IConnector, IRpcConfig, IWCEthRpcConnectionOptions } from "@debank/wc-types";
-import { getRpcUrl, signingMethods } from "@debank/wc-utils";
-import { SignerConnection } from "@debank/wc-signer-connection";
+import { IConnector, IRpcConfig, IWCEthRpcConnectionOptions } from "@rabby-wallet/wc-types";
+import { getRpcUrl, signingMethods } from "@rabby-wallet/wc-utils";
+import { SignerConnection } from "@rabby-wallet/wc-signer-connection";
 import { IEthereumProvider, ProviderAccounts, RequestArguments } from "eip1193-provider";
 
 class WalletConnectProvider implements IEthereumProvider {

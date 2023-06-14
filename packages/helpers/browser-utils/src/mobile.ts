@@ -1,4 +1,4 @@
-import { IMobileRegistryEntry, IMobileRegistry, IMobileLinkInfo } from "@debank/wc-types";
+import { IMobileRegistryEntry, IMobileRegistry, IMobileLinkInfo } from "@rabby-wallet/wc-types";
 
 import { setLocal } from "./local";
 

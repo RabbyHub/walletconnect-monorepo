@@ -24,7 +24,7 @@ import {
   IPushServerOptions,
   IWalletConnectSession,
   IQRCodeModalOptions,
-} from "@debank/wc-types";
+} from "@rabby-wallet/wc-types";
 import {
   parsePersonalSign,
   parseTransactionData,
@@ -44,8 +44,8 @@ import {
   mobileLinkChoiceKey,
   isMobile,
   removeLocal,
-} from "@debank/wc-utils";
-import SocketTransport from "@debank/wc-socket-transport";
+} from "@rabby-wallet/wc-utils";
+import SocketTransport from "@rabby-wallet/wc-socket-transport";
 import {
   ERROR_SESSION_CONNECTED,
   ERROR_SESSION_DISCONNECTED,

@@ -4,7 +4,7 @@ import {
   IQRCodeModalOptions,
   IAppRegistry,
   IMobileLinkInfo,
-} from "@debank/wc-types";
+} from "@rabby-wallet/wc-types";
 import {
   isMobile,
   isAndroid,
@@ -13,7 +13,7 @@ import {
   getMobileLinkRegistry,
   getWalletRegistryUrl,
   formatMobileRegistry,
-} from "@debank/wc-browser-utils";
+} from "@rabby-wallet/wc-browser-utils";
 
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import Header from "./Header";

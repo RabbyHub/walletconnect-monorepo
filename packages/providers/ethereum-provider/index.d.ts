@@ -1,1 +1,1 @@
-declare module "@debank/wc-ethereum-provider";
+declare module "@rabby-wallet/wc-ethereum-provider";

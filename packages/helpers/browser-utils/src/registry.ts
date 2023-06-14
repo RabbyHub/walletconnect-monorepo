@@ -1,4 +1,4 @@
-import { IMobileRegistryEntry, IAppRegistry, IAppEntry } from "@debank/wc-types";
+import { IMobileRegistryEntry, IAppRegistry, IAppEntry } from "@rabby-wallet/wc-types";
 
 const API_URL = "https://registry.walletconnect.com";
 

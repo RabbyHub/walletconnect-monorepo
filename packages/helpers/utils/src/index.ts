@@ -1,4 +1,4 @@
-export * from "@debank/wc-browser-utils";
+export * from "@rabby-wallet/wc-browser-utils";
 
 export * from "./constants";
 export * from "./encoding";

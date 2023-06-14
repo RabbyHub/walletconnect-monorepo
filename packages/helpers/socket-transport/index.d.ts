@@ -1,1 +1,1 @@
-declare module "@debank/wc-socket-transport";
+declare module "@rabby-wallet/wc-socket-transport";

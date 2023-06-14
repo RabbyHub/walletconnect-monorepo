@@ -3,7 +3,7 @@ import {
   IRequiredParamsResult,
   IQueryParamsResult,
   IWalletConnectSession,
-} from "@debank/wc-types";
+} from "@rabby-wallet/wc-types";
 import { parseQueryString } from "./url";
 
 export function isWalletConnectSession(object: any): object is IWalletConnectSession {

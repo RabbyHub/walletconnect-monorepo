@@ -2,7 +2,7 @@ import {
   IJsonRpcResponseSuccess,
   IJsonRpcResponseError,
   IJsonRpcErrorMessage,
-} from "@debank/wc-types";
+} from "@rabby-wallet/wc-types";
 
 export function promisify(
   originalFn: (...args: any[]) => void,

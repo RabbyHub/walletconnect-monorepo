@@ -7,7 +7,7 @@ For more details, read the [documentation](https://docs.walletconnect.org)
 ## Example
 
 ```javascript
-import WalletConnect from "@debank/wc";
+import WalletConnect from "@rabby-wallet/wc";
 
 //  Create WalletConnect SDK instance
 const wc = new WalletConnect();

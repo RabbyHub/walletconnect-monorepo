@@ -1,5 +1,5 @@
-import WalletConnect from "@debank/wc-client";
-import { IWalletConnectOptions } from "@debank/wc-types";
+import WalletConnect from "@rabby-wallet/wc-client";
+import { IWalletConnectOptions } from "@rabby-wallet/wc-types";
 import { ReactNativeStorageOptions } from "keyvaluestorage";
 
 export enum ConnectorEvents {

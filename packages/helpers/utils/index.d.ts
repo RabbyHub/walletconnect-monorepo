@@ -1,1 +1,1 @@
-declare module "@debank/wc-utils";
+declare module "@rabby-wallet/wc-utils";

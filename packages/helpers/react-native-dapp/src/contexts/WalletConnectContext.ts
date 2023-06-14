@@ -11,7 +11,7 @@ const defaultValue: Partial<WalletConnectContextValue> = Object.freeze({
     name: "WalletConnect",
   },
   storageOptions: {
-    rootStorageKey: "@debank/wc-qrcode-modal-react-native",
+    rootStorageKey: "@rabby-wallet/wc-qrcode-modal-react-native",
   },
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   connectToWalletService: async (walletService: WalletService, uri?: string) =>

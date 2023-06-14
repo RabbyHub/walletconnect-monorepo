@@ -7,16 +7,16 @@ For more details, read the [documentation](https://docs.walletconnect.org)
 ## Install
 
 ```bash
-yarn add @debank/wc-client
+yarn add @rabby-wallet/wc-client
 # OR
 
-npm install --save @debank/wc-client
+npm install --save @rabby-wallet/wc-client
 ```
 
 ## Initiate Connection
 
 ```javascript
-import WalletConnect from "@debank/wc-client";
+import WalletConnect from "@rabby-wallet/wc-client";
 
 // Create a connector
 const connector = new WalletConnect({
@@ -247,7 +247,7 @@ connector
 
 ```js
 import WalletConnect from "@walletconnect/browser";
-import WalletConnectQRCodeModal from "@debank/wc-qrcode-modal";
+import WalletConnectQRCodeModal from "@rabby-wallet/wc-qrcode-modal";
 
 // Create a connector
 const connector = new WalletConnect();

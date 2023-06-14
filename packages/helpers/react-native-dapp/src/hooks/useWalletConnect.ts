@@ -1,4 +1,4 @@
-import WalletConnect from "@debank/wc-client";
+import WalletConnect from "@rabby-wallet/wc-client";
 import * as React from "react";
 
 import useWalletConnectContext from "./useWalletConnectContext";

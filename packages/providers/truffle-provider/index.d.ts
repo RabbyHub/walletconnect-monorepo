@@ -1,1 +1,1 @@
-declare module "@debank/wc-truffle-provider";
+declare module "@rabby-wallet/wc-truffle-provider";

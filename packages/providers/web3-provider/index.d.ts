@@ -1,1 +1,1 @@
-declare module "@debank/wc-web3-provider";
+declare module "@rabby-wallet/wc-web3-provider";

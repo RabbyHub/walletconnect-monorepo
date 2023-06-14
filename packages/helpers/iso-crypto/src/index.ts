@@ -5,8 +5,8 @@ import {
   IJsonRpcResponseSuccess,
   IJsonRpcResponseError,
   IEncryptionPayload,
-} from "@debank/wc-types";
-import { convertArrayBufferToBuffer, convertBufferToArrayBuffer } from "@debank/wc-utils";
+} from "@rabby-wallet/wc-types";
+import { convertArrayBufferToBuffer, convertBufferToArrayBuffer } from "@rabby-wallet/wc-utils";
 
 export async function generateKey(length?: number): Promise<ArrayBuffer> {
   const _length = (length || 256) / 8;

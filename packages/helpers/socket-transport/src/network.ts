@@ -1,4 +1,4 @@
-import { NetworkEvent, INetworkEventEmitter, INetworkMonitor } from "@debank/wc-types";
+import { NetworkEvent, INetworkEventEmitter, INetworkMonitor } from "@rabby-wallet/wc-types";
 
 // -- NetworkMonitor --------------------------------------------------------- //
 

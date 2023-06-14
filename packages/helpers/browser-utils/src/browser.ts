@@ -1,4 +1,4 @@
-import { IClientMeta } from "@debank/wc-types";
+import { IClientMeta } from "@rabby-wallet/wc-types";
 
 import * as windowMetadata from "@walletconnect/window-metadata";
 import * as windowGetters from "@walletconnect/window-getters";

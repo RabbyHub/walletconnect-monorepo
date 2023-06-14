@@ -1,7 +1,7 @@
 import EventEmitter from "eventemitter3";
 import { XMLHttpRequest } from "xhr2-cookies";
-import { IError } from "@debank/wc-types";
-import { getFromWindow } from "@debank/wc-utils";
+import { IError } from "@rabby-wallet/wc-types";
+import { getFromWindow } from "@rabby-wallet/wc-utils";
 
 // -- global -------------------------------------------------------------- //
 

@@ -1,8 +1,8 @@
 import "mocha";
 import { expect } from "chai";
 
-import { IJsonRpcRequest, IEncryptionPayload } from "@debank/wc-types";
-import { convertHexToArrayBuffer } from "@debank/wc-utils";
+import { IJsonRpcRequest, IEncryptionPayload } from "@rabby-wallet/wc-types";
+import { convertHexToArrayBuffer } from "@rabby-wallet/wc-utils";
 
 import * as IsoCrypto from "../src";
 

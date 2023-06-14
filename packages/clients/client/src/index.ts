@@ -1,6 +1,6 @@
-import Connector from "@debank/wc-core";
-import { IWalletConnectOptions, IPushServerOptions } from "@debank/wc-types";
-import * as cryptoLib from "@debank/wc-iso-crypto";
+import Connector from "@rabby-wallet/wc-core";
+import { IWalletConnectOptions, IPushServerOptions } from "@rabby-wallet/wc-types";
+import * as cryptoLib from "@rabby-wallet/wc-iso-crypto";
 
 class WalletConnect extends Connector {
   constructor(connectorOpts: IWalletConnectOptions, pushServerOpts?: IPushServerOptions) {

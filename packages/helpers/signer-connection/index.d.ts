@@ -1,1 +1,1 @@
-declare module "@debank/wc-signer-connection";
+declare module "@rabby-wallet/wc-signer-connection";

@@ -1,1 +1,1 @@
-declare module "@debank/wc-http-connection";
+declare module "@rabby-wallet/wc-http-connection";

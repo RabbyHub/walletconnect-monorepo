@@ -1,1 +1,1 @@
-declare module "@debank/wc-iso-crypto";
+declare module "@rabby-wallet/wc-iso-crypto";

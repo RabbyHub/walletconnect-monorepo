@@ -1,4 +1,4 @@
-import { IQRCodeModalOptions } from "@debank/wc-types";
+import { IQRCodeModalOptions } from "@rabby-wallet/wc-types";
 
 import * as nodeLib from "./node";
 import * as browserLib from "./browser";

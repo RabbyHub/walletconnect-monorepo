@@ -4,14 +4,14 @@ import {
   INetworkMonitor,
   ITransportLib,
   ISocketTransportOptions,
-} from "@debank/wc-types";
+} from "@rabby-wallet/wc-types";
 import {
   isBrowser,
   getLocation,
   getQueryString,
   detectEnv,
   appendToQueryString,
-} from "@debank/wc-utils";
+} from "@rabby-wallet/wc-utils";
 
 import NetworkMonitor from "./network";
 

@@ -8,7 +8,7 @@ For more details, read the [documentation](https://docs.walletconnect.org)
 
 ```typescript
 import Web3 from "web3";
-import WalletConnectProvider from "@debank/wc-ethereum-provider";
+import WalletConnectProvider from "@rabby-wallet/wc-ethereum-provider";
 
 //  Create WalletConnect Provider
 const provider = new WalletConnectProvider({

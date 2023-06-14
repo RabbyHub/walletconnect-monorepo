@@ -1,5 +1,5 @@
 {
-  "name": "@debank/wc-iso-crypto",
+  "name": "@rabby-wallet/wc-iso-crypto",
   "version": "1.8.7",
   "description": "Isomorphic Crypto for WalletConnect",
   "publishConfig": {
@@ -64,8 +64,8 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-types": "^1.8.7",
-    "@debank/wc-utils": "^1.8.7",
+    "@rabby-wallet/wc-types": "^1.8.7",
+    "@rabby-wallet/wc-utils": "^1.8.7",
     "@walletconnect/crypto": "^1.0.2",
     "@walletconnect/encoding": "^1.0.1"
   },

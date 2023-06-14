@@ -1,7 +1,8 @@
 {
-  "name": "@debank/wc",
+  "name": "@rabby-wallet/wc",
   "version": "1.8.7",
   "description": "WalletConnect SDK",
+  "private": true,
   "publishConfig": {
     "access": "restricted"
   },
@@ -63,11 +64,11 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@debank/wc-client": "^1.8.7",
-    "@debank/wc-qrcode-modal": "^1.8.7",
-    "@debank/wc-types": "^1.8.7",
-    "@debank/wc-utils": "^1.8.7",
-    "@debank/wc-web3-provider": "^1.8.7"
+    "@rabby-wallet/wc-client": "^1.8.7",
+    "@rabby-wallet/wc-qrcode-modal": "^1.8.7",
+    "@rabby-wallet/wc-types": "^1.8.7",
+    "@rabby-wallet/wc-utils": "^1.8.7",
+    "@rabby-wallet/wc-web3-provider": "^1.8.7"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }

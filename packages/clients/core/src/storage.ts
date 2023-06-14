@@ -1,5 +1,5 @@
-import { IWalletConnectSession } from "@debank/wc-types";
-import { isWalletConnectSession, getLocal, setLocal, removeLocal } from "@debank/wc-utils";
+import { IWalletConnectSession } from "@rabby-wallet/wc-types";
+import { isWalletConnectSession, getLocal, setLocal, removeLocal } from "@rabby-wallet/wc-utils";
 
 class SessionStorage {
   constructor(public storageId: string = "walletconnect") {}
