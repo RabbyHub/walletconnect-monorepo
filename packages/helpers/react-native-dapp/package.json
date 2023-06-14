@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/wc-react-native-dapp",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "description": "WalletConnect for React Native dapps",
   "private": true,
   "publishConfig": {
@@ -42,9 +42,9 @@
     "url": "https://github.com/walletconnect/walletconnect-monorepo/issues"
   },
   "dependencies": {
-    "@rabby-wallet/wc-client": "^1.8.7",
-    "@rabby-wallet/wc-types": "^1.8.7",
-    "@rabby-wallet/wc-utils": "^1.8.7",
+    "@rabby-wallet/wc-client": "^1.8.8",
+    "@rabby-wallet/wc-types": "^1.8.8",
+    "@rabby-wallet/wc-utils": "^1.8.8",
     "keyvaluestorage": "0.7.1",
     "react-native-qrcode-svg": "6.0.6",
     "react-native-svg": "9.6.4",

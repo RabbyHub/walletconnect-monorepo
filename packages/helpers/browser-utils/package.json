@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/wc-browser-utils",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "description": "Browser Utilities for WalletConnect",
   "private": true,
   "publishConfig": {
@@ -66,7 +66,7 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@rabby-wallet/wc-types": "^1.8.7",
+    "@rabby-wallet/wc-types": "^1.8.8",
     "@walletconnect/safe-json": "1.0.0",
     "@walletconnect/window-getters": "1.0.0",
     "@walletconnect/window-metadata": "1.0.0",

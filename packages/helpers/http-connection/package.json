@@ -1,6 +1,6 @@
 {
   "name": "@rabby-wallet/wc-http-connection",
-  "version": "1.8.7",
+  "version": "1.8.8",
   "description": "Http Connection for WalletConnect Providers",
   "private": true,
   "publishConfig": {
@@ -65,8 +65,8 @@
     "webpack-cli": "3.3.10"
   },
   "dependencies": {
-    "@rabby-wallet/wc-types": "^1.8.7",
-    "@rabby-wallet/wc-utils": "^1.8.7",
+    "@rabby-wallet/wc-types": "^1.8.8",
+    "@rabby-wallet/wc-utils": "^1.8.8",
     "eventemitter3": "4.0.7",
     "xhr2-cookies": "1.1.0"
   },
