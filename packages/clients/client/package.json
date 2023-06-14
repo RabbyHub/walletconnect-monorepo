@@ -3,7 +3,7 @@
   "version": "1.8.7",
   "description": "Client for WalletConnect",
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",

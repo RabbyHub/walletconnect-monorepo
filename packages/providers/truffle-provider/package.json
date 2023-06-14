@@ -4,7 +4,7 @@
   "description": "WalletConnect Provider for Truffle",
   "private": true,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",

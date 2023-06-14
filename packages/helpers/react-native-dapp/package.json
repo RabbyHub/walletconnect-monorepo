@@ -4,7 +4,7 @@
   "description": "WalletConnect for React Native dapps",
   "private": true,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",

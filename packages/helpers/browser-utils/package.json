@@ -4,7 +4,7 @@
   "description": "Browser Utilities for WalletConnect",
   "private": true,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",

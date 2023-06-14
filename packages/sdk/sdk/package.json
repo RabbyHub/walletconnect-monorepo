@@ -4,7 +4,7 @@
   "description": "WalletConnect SDK",
   "private": true,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",

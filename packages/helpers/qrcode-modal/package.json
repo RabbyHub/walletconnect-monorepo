@@ -4,7 +4,7 @@
   "description": "QR Code Modal for WalletConnect",
   "private": true,
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "scripts": {
     "clean": "rm -rf dist",
