@@ -40,7 +40,7 @@ Open protocol for connecting Wallets to Dapps - https://walletconnect.org
 
 `## Quick Start`
 
-Find quick start examples for your platform at https://docs.walletconnect.org/quick-start
+Find quick start examples for your platform at https://docs.reown.com/appkit/overview#quickstart
 
 ## Documentation
 
