@@ -66,7 +66,7 @@
   "dependencies": {
     "@rabby-wallet/wc-types": "^1.8.10",
     "@rabby-wallet/wc-utils": "^1.8.10",
-    "ws": "7.5.3"
+    "ws": "7.5.11"
   },
   "gitHead": "165f7993c2acc907c653c02847fb02721052c6e7"
 }
